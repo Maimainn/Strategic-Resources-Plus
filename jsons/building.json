@@ -1,0 +1,967 @@
+[
+ //Horse
+  {
+    "name": "Horse Ranch",
+    "cost": 120,
+    "requiredTech": "Animal Husbandry",
+    "requiredResource": "Horses",
+    "maintenance": 1,
+    "uniques": [
+      "[+1 Food] [in this city]",
+      "[+1 Gold] from [Pasture] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Horse Market",
+    "cost": 150,
+    "requiredTech": "Horseback Riding",
+    "requiredResource": "Horses",
+    "uniques": [
+      "[+2 Gold] from each Trade Route",
+      "[+1 Food] from [Horses] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Stable Extension",
+    "cost": 180,
+    "requiredTech": "Horseback Riding",
+    "requiredResource": "Horses",
+    "uniques": [
+      "[+1 Food] per [3] population [in this city]"
+    ]
+  },
+  {
+    "name": "Horse Pulled Wagon",
+    "cost": 200,
+    "requiredTech": "Currency",
+    "requiredResource": "Horses",
+    "uniques": [
+      "[+1 Gold] from each Trade Route",
+      "[+1 Production] [in this city]"
+    ]
+  },
+  {
+    "name": "Equestrian Center",
+    "cost": 220,
+    "requiredTech": "Civil Service",
+    "requiredResource": "Horses",
+    "uniques": [
+      "[+1 Culture] from [Pasture] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Grand Stable",
+    "cost": 250,
+    "requiredTech": "Military Science",
+    "requiredResource": "Horses",
+    "uniques": [
+      "[10]% Production when constructing [Mounted] units [in this city]",
+      "[+1 Happiness] [in this city]"
+    ]
+  },
+  {
+    "name": "Royal Breeding Ground",
+    "cost": 260,
+    "requiredTech": "Military Science",
+    "requiredResource": "Horses",
+    "uniques": [
+      "[+2 Food] [in this city]",
+      "[+1 Gold] [in this city]"
+    ]
+  },
+  {
+    "name": "Mounted Parade Plaza",
+    "cost": 270,
+    "requiredTech": "Chivalry",
+    "requiredResource": "Horses",
+    "uniques": [
+      "[+1 Culture] from each Trade Route",
+      "[+1 Happiness] [in this city]"
+    ]
+  },
+  {
+    "name": "Horse Supply Depot",
+    "cost": 290,
+    "requiredTech": "Chivalry",
+    "requiredResource": "Horses",
+    "uniques": [
+      "[10]% Food is carried over after population increases [in this city]",
+      "[+1 Production] from [Pasture] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Mounted Guard Post",
+    "cost": 300,
+    "requiredTech": "Gunpowder",
+    "requiredResource": "Horses",
+    "uniques": [
+      "[+1 Happiness] [in this city]",
+      "[+1 Gold] from [Pasture] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Imperial Riding School",
+    "cost": 330,
+    "requiredTech": "Military Science",
+    "requiredResource": "Horses",
+    "uniques": [
+      "New [Mounted] units start with [15] XP [in this city]",
+      "[+1 Culture] from each Trade Route"
+    ]
+  },
+
+ //Iron
+  {
+    "name": "Iron Mining Expansion",
+    "cost": 120,
+    "requiredTech": "Mining",
+    "requiredResource": "Iron",
+    "maintenance": 1,
+    "uniques": [
+      "[+1 Production] from [Mine] tiles [in this city]",
+      "[+1 Science] from each Trade Route"
+    ]
+  },
+  {
+    "name": "Smithing Mine",
+    "cost": 160,
+    "requiredTech": "Iron Working",
+    "requiredResource": "Iron",
+    "maintenance": 1,
+    "uniques": [
+      "[+2 Production] [in this city]",
+      "[+1 Gold] from [Iron] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Steel Foundry",
+    "cost": 200,
+    "requiredTech": "Metal Casting",
+    "requiredResource": "Iron",
+    "maintenance": 2,
+    "uniques": [
+      "[+1 Science] from [Mine] tiles [in this city]",
+      "[+10]% Production when constructing [Land] units [in this city]"
+    ]
+  },
+  {
+    "name": "Forge Extension",
+    "cost": 230,
+    "requiredTech": "Metal Casting",
+    "requiredResource": "Iron",
+    "uniques": [
+      "[+1 Production] per [3] population [in this city]",
+      "[+1 Science] [in this city]"
+    ]
+  },
+  {
+    "name": "Weapon Smithery",
+    "cost": 260,
+    "requiredTech": "Machinery",
+    "requiredResource": "Iron",
+    "uniques": [
+      "[10]% Production when constructing [Land] units [in this city]",
+      "[+1 Science] from each Trade Route"
+    ]
+  },
+  {
+    "name": "Steelworks",
+    "cost": 300,
+    "requiredTech": "Steel",
+    "requiredResource": "Iron",
+    "maintenance": 2,
+    "uniques": [
+      "[+1 Production] from [Mine] tiles [in this city]",
+      "[+1 Science] [in this city]"
+    ]
+  },
+  {
+    "name": "Smelting Complex",
+    "cost": 330,
+    "requiredTech": "Metallurgy",
+    "requiredResource": "Iron",
+    "uniques": [
+      "[+1 Production] from [Iron] tiles [in this city]",
+      "[+1 Science] from each Trade Route"
+    ]
+  },
+  {
+    "name": "Industrial Armory",
+    "cost": 370,
+    "requiredTech": "Gunpowder",
+    "requiredResource": "Iron",
+    "uniques": [
+      "[10]% Production when constructing [Military] units [in this city]",
+      "[+1 Production] [in this city]"
+    ]
+  },
+  {
+    "name": "Advanced Smelter",
+    "cost": 400,
+    "requiredTech": "Steam Power",
+    "requiredResource": "Iron",
+    "uniques": [
+      "[+1 Production] per [5] population [in this city]",
+      "[+1 Science] from [Mine] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Iron Reclamation Plant",
+    "cost": 440,
+    "requiredTech": "Industrialization",
+    "requiredResource": "Iron",
+    "uniques": [
+      "[+2 Production] [in this city]",
+      "[+1 Science] from each Trade Route"
+    ]
+  },
+  {
+    "name": "National Steel Foundry",
+    "cost": 480,
+    "requiredTech": "Railroads",
+    "requiredResource": "Iron",
+    "uniques": [
+      "[15]% [Production] [in this city]",
+      "[+1 Happiness] [in this city]"
+    ]
+  },
+
+ //Coal
+  {
+    "name": "Coal Mining Site",
+    "cost": 120,
+    "requiredTech": "Mining",
+    "requiredResource": "Coal",
+    "maintenance": 1,
+    "uniques": [
+      "[+1 Production] from [Mine] tiles [in this city]",
+      "[+1 Gold] from each Trade Route"
+    ]
+  },
+  {
+    "name": "Coal Storage Facility",
+    "cost": 160,
+    "requiredTech": "Engineering",
+    "requiredResource": "Coal",
+    "maintenance": 1,
+    "uniques": [
+      "[+1 Production] [in this city]",
+      "[+1 Happiness] [in this city]"
+    ]
+  },
+  {
+    "name": "Steam Workshop",
+    "cost": 200,
+    "requiredTech": "Steam Power",
+    "requiredResource": "Coal",
+    "maintenance": 2,
+    "uniques": [
+      "[10]% [Production] [in this city]",
+      "[+1 Science] from [Mine] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Coal Refinement Plant",
+    "cost": 230,
+    "requiredTech": "Industrialization",
+    "requiredResource": "Coal",
+    "maintenance": 2,
+    "uniques": [
+      "[+1 Production] per [4] population [in this city]",
+      "[+1 Gold] from [Mine] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Industrial Steam Hall",
+    "cost": 260,
+    "requiredTech": "Steam Power",
+    "requiredResource": "Coal",
+    "maintenance": 2,
+    "uniques": [
+      "[10]% [Production] [in this city]",
+      "[+1 Faith] [in this city]"
+    ]
+  },
+  {
+    "name": "Coal Power Foundry",
+    "cost": 300,
+    "requiredTech": "Electricity",
+    "requiredResource": "Coal",
+    "maintenance": 3,
+    "uniques": [
+      "[+2 Production] [in this city]",
+      "[+1 Gold] from each Trade Route"
+    ]
+  },
+  {
+    "name": "Mechanized Plant",
+    "cost": 330,
+    "requiredTech": "Replaceable Parts",
+    "requiredResource": "Coal",
+    "maintenance": 3,
+    "uniques": [
+      "[+1 Production] per [3] population [in this city]",
+      "[+1 Science] [in this city]"
+    ]
+  },
+  {
+    "name": "Steel Fuel Depot",
+    "cost": 370,
+    "requiredTech": "Railroads",
+    "requiredResource": "Coal",
+    "maintenance": 2,
+    "uniques": [
+      "[+1 Gold] from [Mine] tiles [in this city]",
+      "[+1 Faith] from each Trade Route"
+    ]
+  },
+  {
+    "name": "Steam Machinery Hub",
+    "cost": 400,
+    "requiredTech": "Electricity",
+    "requiredResource": "Coal",
+    "maintenance": 3,
+    "uniques": [
+      "[+2 Production] [in this city]",
+      "[+1 Science] from [Mine] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Coal Industrial Park",
+    "cost": 440,
+    "requiredTech": "Replaceable Parts",
+    "requiredResource": "Coal",
+    "maintenance": 3,
+    "uniques": [
+      "[+1 Production] per [5] population [in this city]",
+      "[+1 Gold] from each Trade Route"
+    ]
+  },
+  {
+    "name": "National Steamworks",
+    "cost": 480,
+    "requiredTech": "Railroads",
+    "requiredResource": "Coal",
+    "maintenance": 4,
+    "uniques": [
+      "[15]% [Production] [in this city]",
+      "[+1 Happiness] [in this city]"
+    ]
+  },
+
+ //Oil
+  {
+    "name": "Oil Extraction Well",
+    "cost": 220,
+    "requiredTech": "Biology",
+    "requiredResource": "Oil",
+    "maintenance": 2,
+    "uniques": [
+      "[+1 Production] from [Oil well] tiles [in this city]",
+      "[+1 Gold] from each Trade Route"
+    ]
+  },
+  {
+    "name": "Oil Refinement Center",
+    "cost": 260,
+    "requiredTech": "Combustion",
+    "requiredResource": "Oil",
+    "maintenance": 3,
+    "uniques": [
+      "[+2 Gold] [in this city]",
+      "[+1 Science] from [Oil well] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Oil Trade Depot",
+    "cost": 290,
+    "requiredTech": "Combustion",
+    "requiredResource": "Oil",
+    "maintenance": 3,
+    "uniques": [
+      "[+1 Gold] per [3] population [in this city]",
+      "[+1 Science] from each Trade Route"
+    ]
+  },
+  {
+    "name": "Petroleum Processing Plant",
+    "cost": 320,
+    "requiredTech": "Plastics",
+    "requiredResource": "Oil",
+    "maintenance": 4,
+    "uniques": [
+      "[10]% [Production] [in this city]",
+      "[+1 Gold] [in this city]"
+    ]
+  },
+  {
+    "name": "Oil Pressure Facility",
+    "cost": 350,
+    "requiredTech": "Plastics",
+    "requiredResource": "Oil",
+    "maintenance": 3,
+    "uniques": [
+      "[+2 Science] [in this city]",
+      "[+1 Gold] per [5] population [in this city]"
+    ]
+  },
+  {
+    "name": "Oil Faith Shrine",
+    "cost": 380,
+    "requiredTech": "Plastics",
+    "requiredResource": "Oil",
+    "maintenance": 2,
+    "uniques": [
+      "[+2 Faith] [in this city]",
+      "Only available (when religion is enabled)"
+    ]
+  },
+  {
+    "name": "Petrochemical Research Lab",
+    "cost": 420,
+    "requiredTech": "Rocketry",
+    "requiredResource": "Oil",
+    "maintenance": 4,
+    "uniques": [
+      "[+2 Science] per [5] population [in this city]",
+      "[+1 Gold] [in this city]"
+    ]
+  },
+  {
+    "name": "Aviation Fuel Plant",
+    "cost": 450,
+    "requiredTech": "Flight",
+    "requiredResource": "Oil",
+    "maintenance": 3,
+    "uniques": [
+      "[10]% [Production] [in this city]",
+      "[+1 Gold] from each Trade Route"
+    ]
+  },
+  {
+    "name": "Oil Energy Refinery",
+    "cost": 480,
+    "requiredTech": "Plastics",
+    "requiredResource": "Oil",
+    "maintenance": 4,
+    "uniques": [
+      "[+1 Science] per [4] population [in this city]",
+      "[+1 Gold] from [Oil well] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Oil Industrial Park",
+    "cost": 520,
+    "requiredTech": "Rocketry",
+    "requiredResource": "Oil",
+    "maintenance": 4,
+    "uniques": [
+      "[15]% [Production] [in this city]",
+      "[+1 Happiness] [in this city]"
+    ]
+  },
+  {
+    "name": "National Petroleum Authority",
+    "cost": 550,
+    "requiredTech": "Plastics",
+    "requiredResource": "Oil",
+    "maintenance": 5,
+    "uniques": [
+      "[+2 Gold] from each Trade Route",
+      "[+1 Science] [in this city]"
+    ]
+  },
+
+ //Alumunium
+  {
+    "name": "Aluminum Mining Site",
+    "cost": 250,
+    "requiredTech": "Electricity",
+    "requiredResource": "Aluminum",
+    "maintenance": 2,
+    "uniques": [
+      "[+1 Production] from [Mine] tiles [in this city]",
+      "[+1 Science] [in this city]"
+    ]
+  },
+  {
+    "name": "Aluminum Refinery",
+    "cost": 290,
+    "requiredTech": "Replaceable Parts",
+    "requiredResource": "Aluminum",
+    "maintenance": 3,
+    "uniques": [
+      "[+1 Production] per [4] population [in this city]",
+      "[+1 Gold] [in this city]"
+    ]
+  },
+  {
+    "name": "Aluminum Faith Generator",
+    "cost": 320,
+    "requiredTech": "Electricity",
+    "requiredResource": "Aluminum",
+    "maintenance": 2,
+    "uniques": [
+      "[+2 Faith] [in this city]",
+      "Only available (when religion is enabled)"
+    ]
+  },
+  {
+    "name": "Lightweight Alloy Plant",
+    "cost": 350,
+    "requiredTech": "Plastics",
+    "requiredResource": "Aluminum",
+    "maintenance": 3,
+    "uniques": [
+      "[+10]% [Production] [in this city]",
+      "[+1 Science] from [Mine] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Aeronautic Engineering Hub",
+    "cost": 380,
+    "requiredTech": "Flight",
+    "requiredResource": "Aluminum",
+    "maintenance": 3,
+    "uniques": [
+      "[+2 Science] per [4] population [in this city]",
+      "[+1 Gold] [in this city]"
+    ]
+  },
+  {
+    "name": "Aluminum Pressure Smelter",
+    "cost": 420,
+    "requiredTech": "Plastics",
+    "requiredResource": "Aluminum",
+    "maintenance": 4,
+    "uniques": [
+      "[15]% [Production] [in this city]",
+      "[+1 Science] from each Trade Route"
+    ]
+  },
+  {
+    "name": "Aluminum Trade Bureau",
+    "cost": 450,
+    "requiredTech": "Electronics",
+    "requiredResource": "Aluminum",
+    "maintenance": 3,
+    "uniques": [
+      "[+1 Gold] from each Trade Route",
+      "[+1 Science] [in this city]"
+    ]
+  },
+  {
+    "name": "Industrial Alloy Foundry",
+    "cost": 480,
+    "requiredTech": "Computers",
+    "requiredResource": "Aluminum",
+    "maintenance": 4,
+    "uniques": [
+      "[+1 Production] per [3] population [in this city]",
+      "[+1 Science] [in this city]"
+    ]
+  },
+  {
+    "name": "High-Tech Manufacturing Lab",
+    "cost": 510,
+    "requiredTech": "Robotics",
+    "requiredResource": "Aluminum",
+    "maintenance": 4,
+    "uniques": [
+      "[10]% [Production] [in this city]",
+      "[+2 Science] [in this city]"
+    ]
+  },
+  {
+    "name": "Aluminum Industrial District",
+    "cost": 540,
+    "requiredTech": "Robotics",
+    "requiredResource": "Aluminum",
+    "maintenance": 4,
+    "uniques": [
+      "[+1 Science] per [5] population [in this city]",
+      "[+1 Gold] [in this city]"
+    ]
+  },
+  {
+    "name": "National Aluminum Authority",
+    "cost": 580,
+    "requiredTech": "Nanotechnology",
+    "requiredResource": "Aluminum",
+    "maintenance": 5,
+    "uniques": [
+      "[15]% [Production] [in this city]",
+      "[+1 Happiness] [in this city]"
+    ]
+  },
+
+ //Uranium
+  {
+    "name": "Uranium Refinery",
+    "cost": 480,
+    "maintenance": 3,
+    "requiredTech": "Atomic Theory",
+    "requiredResource": "Uranium",
+    "uniques": [
+      "[+2 Production] [in this city]",
+      "[+1 Science] [in this city]"
+    ]
+  },
+  {
+    "name": "Uranium Power Generator",
+    "cost": 520,
+    "maintenance": 4,
+    "requiredBuilding": "Uranium Refinery",
+    "requiredTech": "Nuclear Fission",
+    "requiredResource": "Uranium",
+    "uniques": [
+      "[+2 Production] [in this city]",
+      "[+1 Gold] [in this city]"
+    ]
+  },
+  {
+    "name": "Uranium Defense Complex",
+    "cost": 650,
+    "maintenance": 5,
+    "requiredBuilding": "Uranium Power Generator",
+    "requiredTech": "Advanced Ballistics",
+    "requiredResource": "Uranium",
+    "cityStrength": 25,
+    "cityHealth": 250,
+    "uniques": [
+      "[+2 Science] [in this city]",
+      "[+1 Production] [in this city]"
+    ]
+  },
+  {
+    "name": "Uranium Trade Bureau",
+    "cost": 580,
+    "maintenance": 3,
+    "requiredBuilding": "Nuclear Plant",
+    "requiredTech": "Globalization",
+    "requiredResource": "Uranium",
+    "uniques": [
+      "[+3 Gold] [in this city]",
+      "[+1 Science] [in this city]"
+    ]
+  },
+  {
+    "name": "Uranium Enrichment Lab",
+    "cost": 600,
+    "maintenance": 4,
+    "requiredBuilding": "Uranium Refinery",
+    "requiredTech": "Particle Physics",
+    "requiredResource": "Uranium",
+    "uniques": [
+      "[+3 Science] [in this city]",
+      "[+1 Production] [in this city]"
+    ]
+  },
+  {
+    "name": "Radiation Shielding Facility",
+    "cost": 630,
+    "maintenance": 5,
+    "requiredBuilding": "Uranium Enrichment Lab",
+    "requiredTech": "Robotics",
+    "requiredResource": "Uranium",
+    "cityHealth": 200,
+    "uniques": [
+      "[+2 Production] [in this city]",
+      "[+2 Science] [in this city]"
+    ]
+  },
+  {
+    "name": "Nuclear Logistics Hub",
+    "cost": 590,
+    "maintenance": 4,
+    "requiredBuilding": "Uranium Trade Bureau",
+    "requiredTech": "Satellites",
+    "requiredResource": "Uranium",
+    "uniques": [
+      "[+1 Gold] per [2] population [in this city]",
+      "[+2 Science] [in this city]"
+    ]
+  },
+  {
+    "name": "Uranium Supply Depot",
+    "cost": 560,
+    "maintenance": 4,
+    "requiredBuilding": "Nuclear Plant",
+    "requiredTech": "Lasers",
+    "requiredResource": "Uranium",
+    "uniques": [
+      "[+2 Production] [in this city]",
+      "[+1 Gold] [in this city]"
+    ]
+  },
+  {
+    "name": "Nuclear Material Storage",
+    "cost": 600,
+    "maintenance": 4,
+    "requiredBuilding": "Uranium Supply Depot",
+    "requiredTech": "Nanotechnology",
+    "requiredResource": "Uranium",
+    "uniques": [
+      "[+2 Science] [in this city]",
+      "[+1 Gold] [in this city]"
+    ]
+  },
+  {
+    "name": "Uranium Research Division",
+    "cost": 620,
+    "maintenance": 5,
+    "requiredBuilding": "Uranium Enrichment Lab",
+    "requiredTech": "Future Tech",
+    "requiredResource": "Uranium",
+    "uniques": [
+      "[+4 Science] [in this city]",
+      "[+1 Production] [in this city]"
+    ]
+  },
+  {
+    "name": "Uranium Energy Plant",
+    "cost": 640,
+    "maintenance": 5,
+    "requiredBuilding": "Uranium Power Generator",
+    "requiredTech": "Nuclear Fusion",
+    "requiredResource": "Uranium",
+    "uniques": [
+      "[+3 Production] [in this city]",
+      "[+1 Gold] [in this city]"
+    ]
+  },
+
+ //World Wonders
+  {
+    "name": "Lalibela Rock-Hewn Churches",
+    "isWonder": true,
+    "cost": 320,
+    "culture": 3,
+    "faith": 4,
+    "requiredTech": "Theology",
+    "uniques": [
+      "[+2 Culture] from every [Shrine]",
+      "[+1 Culture] from every [Temple]",
+      "Free [Great Prophet] appears",
+      "[+17]% [Culture] from Trade Routes",
+      "[+13]% [Faith] from Trade Routes",
+      "Gain a free [Temple] [in all cities]"
+    ]
+  },
+  {
+    "name": "Chand Baori Stepwell",
+    "isWonder": true,
+    "cost": 190,
+    "gold": 3,
+    "requiredTech": "Masonry",
+    "uniques": [
+      "[+2 Gold] from every [Aqueduct]",
+      "[-30]% maintenance cost for [all] buildings [in this city]",
+      "[+17]% [Production] from Trade Routes",
+      "Gain a free [Aqueduct] [in this city]"
+    ]
+  },
+  {
+    "name": "Minaret of Jam",
+    "isWonder": true,
+    "cost": 420,
+    "faith": 3,
+    "requiredTech": "Mathematics",
+    "uniques": [
+      "[+20]% [Gold] from Trade Routes",
+      "[+3 Faith] from every [Market]",
+      "Free [Great Merchant] appears"
+    ]
+  },
+  {
+    "name": "Kumbhalgarh Fort",
+    "isWonder": true,
+    "cost": 460,
+    "cityStrength": 25,
+    "cityHealth": 50,
+    "requiredTech": "Construction",
+    "uniques": [
+      "[+25]% City Strength from defensive buildings",
+      "All healing effects doubled",
+      "[+20]% [Production] from Trade Routes",
+      "Free [Great General] appears"
+    ]
+  },
+  {
+    "name": "Stari Most Bridge",
+    "isWonder": true,
+    "cost": 420,
+    "gold": 7,
+    "requiredTech": "Engineering",
+    "uniques": [
+      "[+15]% [Gold] from Trade Routes",
+      "[-20]% maintenance cost for [all] buildings [in this city]",
+      "Free [Great Engineer] appears"
+    ]
+  },
+  {
+    "name": "Potala Palace",
+    "isWonder": true,
+    "cost": 480,
+    "culture": 6,
+    "faith": 2,
+    "requiredTech": "Civil Service",
+    "uniques": [
+      "Free [Great Scientist] appears",
+      "[+15]% [Culture] from Trade Routes",
+      "Gain a free [Monastery] [in this city]"
+    ]
+  },
+  {
+    "name": "Pontcysyllte Aqueduct",
+    "isWonder": true,
+    "cost": 450,
+    "food": 7,
+    "production": 2,
+    "requiredTech": "Physics",
+    "uniques": [
+      "[+15]% [Production] from Trade Routes",
+      "[+15]% [Food] from Trade Routes",
+      "Gain a free [Aqueduct] [in this city]"
+    ]
+  },
+
+ //National Wonders
+  {
+    "name": "Ironworks Foundry",
+    "isNationalWonder": true,
+    "cost": 150,
+    "production": 2,
+    "requiredTech": "Iron Working",
+    "uniques": [
+      "Provides [3] [Iron]",
+      "[+10]% [Production] from every [Mine]",
+      "Free [Great Engineer] appears"
+    ]
+  },
+  {
+    "name": "Horse Breeding Paddock",
+    "isNationalWonder": true,
+    "cost": 140,
+    "food": 1,
+    "requiredTech": "Animal Husbandry",
+    "uniques": [
+      "Provides [3] [Horses]",
+      "[+10]% [Gold] from Trade Routes",
+      "Free [Great General] appears"
+    ]
+  },
+  {
+    "name": "Coal Smelter",
+    "isNationalWonder": true,
+    "cost": 170,
+    "production": 3,
+    "requiredTech": "Industrialization",
+    "uniques": [
+      "Provides [3] [Coal]",
+      "[+12]% [Production] from every [Mine]"
+    ]
+  },
+  {
+    "name": "Oil Refinery",
+    "isNationalWonder": true,
+    "cost": 200,
+    "production": 2,
+    "gold": 2,
+    "requiredTech": "Biology",
+    "uniques": [
+      "Provides [3] [Oil]",
+      "[+10]% [Gold] from Trade Routes",
+      "Free [Great Engineer] appears"
+    ]
+  },
+  {
+    "name": "Aluminum Foundry",
+    "isNationalWonder": true,
+    "cost": 220,
+    "production": 3,
+    "requiredTech": "Electricity",
+    "uniques": [
+      "Provides [3] [Aluminum]",
+      "[+8]% [Production] from every [Mine]"
+    ]
+  },
+  {
+    "name": "Uranium Enrichment Facility",
+    "isNationalWonder": true,
+    "cost": 250,
+    "production": 2,
+    "requiredTech": "Atomic Theory",
+    "uniques": [
+      "Provides [3] [Uranium]",
+      "[15]% Production when constructing [Military] units [in this city]"
+    ]
+  },
+  {
+    "name": "Strategic Stockpile",
+    "isNationalWonder": true,
+    "cost": 180,
+    "gold": 2,
+    "requiredTech": "Economics",
+    "uniques": [
+      "Provides [3] [Iron]",
+      "Provides [3] [Coal]",
+      "Provides [3] [Horses]",
+      "Provides [3] [Oil]",
+      "Provides [3] [Aluminum]",
+      "[+10]% [Gold] from Trade Routes",
+      "[+10]% [Production] from Trade Routes"
+    ]
+  },
+  {
+    "name": "Resource Depot",
+    "isNationalWonder": true,
+    "cost": 160,
+    "production": 1,
+    "requiredTech": "Metal Casting",
+    "uniques": [
+      "Provides [3] [Coal]",
+      "Provides [3] [Iron]",
+      "[+10]% [Production] from every [Mine]"
+    ]
+  },
+  {
+    "name": "Foundry of Innovation",
+    "isNationalWonder": true,
+    "cost": 180,
+    "production": 2,
+    "requiredTech": "Scientific Theory",
+    "uniques": [
+      "Provides [3] [Aluminum]",
+      "[+10]% [Science] from Trade Routes",
+      "Free [Great Scientist] appears"
+    ]
+  },
+  {
+    "name": "Military Supplies Workshop",
+    "isNationalWonder": true,
+    "cost": 200,
+    "production": 3,
+    "requiredTech": "Metal Casting",
+    "uniques": [
+      "Provides [3] [Iron]",
+      "[12]% Production when constructing [Military] units [in this city]"
+    ]
+  },
+  {
+    "name": "Strategic Resource Exchange",
+    "isNationalWonder": true,
+    "cost": 190,
+    "gold": 3,
+    "requiredTech": "Economics",
+    "uniques": [
+      "Provides [3] [Iron]",
+      "Provides [3] [Coal]",
+      "Provides [3] [Horses]",
+      "Provides [3] [Oil]",
+      "Provides [3] [Aluminum]",
+      "[+10]% [Gold] from Trade Routes",
+      "[+10]% [Production] from Trade Routes"
+    ]
+  }
+]
